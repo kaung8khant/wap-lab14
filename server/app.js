@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 //routes
-app.use("/book", bookRouter);
+app.use("/books", bookRouter);
 
 //Error Handler
 app.use((req, res, next) => {
