@@ -1,0 +1,79 @@
+body {
+  padding: 20px;
+}
+input {
+  width: 100%;
+}
+textarea {
+  width: 100%;
+}
+form {
+  width: 50%;
+}
+.input-group input,
+textarea {
+  border: 0px;
+  border-bottom: 1px solid black;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.input-group input:focus,
+textarea:focus {
+  outline: none;
+  border-bottom: 1px solid blue;
+}
+form {
+  margin-bottom: 20px;
+}
+form button {
+  float: right;
+  align-items: flex-end;
+}
+button {
+  border: 0px;
+  background-color: rgb(0, 160, 27);
+  border-radius: 20px;
+  min-width: 100px;
+  color: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+button:hover {
+  cursor: pointer;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.update {
+  background-color: rgb(252, 193, 0);
+}
+
+.delete {
+  background-color: rgb(219, 83, 29);
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#books {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#getProdsBtn {
+  margin-top: 10px;
+  float: right;
+  margin-bottom: 20px;
+}
